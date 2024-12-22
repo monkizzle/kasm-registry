@@ -1,0 +1,34 @@
+{
+  "description": "Description Goes Here",
+  "docker_registry": "https://ghcr.io/",
+  "image_src": "xpipe.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Desktop"
+  ],
+  "friendly_name": "Xpipe",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "version": "1.17.x",
+      "image": "ghcr.io/xpipe-io/xpipe-webtop:latest",
+      "available_tags": [
+        "Desktop"
+      ]
+    }
+  ]
+}
