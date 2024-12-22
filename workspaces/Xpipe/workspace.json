@@ -1,6 +1,6 @@
 {
   "friendly_name": "Xpipe Webtop",
-  "image_src": "webtop.jpg",
+  "image_src": "webtop.png",
   "description": "Xpipe Webtop",
   "name": "ghcr.io/xpipe-io/xpipe-webtop:latest",
   "cores": 2,
