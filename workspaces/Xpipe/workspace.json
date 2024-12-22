@@ -1,7 +1,8 @@
 {
-  "description": "Description Goes Here",
+  "description": "Description of Xpipe Webtop",
   "docker_registry": "https://ghcr.io/",
   "image_src": "xpipe.png",
+  "name": "ghcr.io/xpipe-io/xpipe-webtop:latest",
   "run_config": {
     "hostname": "kasm"
   },
@@ -22,13 +23,8 @@
     "arm64"
   ],
   "compatibility": [
-    {
-      "version": "1.16.x",
-      "version": "1.17.x",
-      "image": "ghcr.io/xpipe-io/xpipe-webtop:latest",
-      "available_tags": [
-        "Desktop"
-      ]
-    }
-  ]
+    "1.13.x",
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 2170
 }
