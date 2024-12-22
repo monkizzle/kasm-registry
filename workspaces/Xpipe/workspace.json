@@ -25,10 +25,9 @@
     {
       "version": "1.16.x",
       "version": "1.17.x",
-      "image": "kasmweb/chromium:develop",
-      "uncompressed_size_mb": 2170,
+      "image": "ghcr.io/xpipe-io/xpipe-webtop:latest",
       "available_tags": [
-        "develop"
+        "Desktop"
       ]
     }
   ]
